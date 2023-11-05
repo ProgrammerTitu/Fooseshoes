@@ -1,0 +1,513 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Allerta', sans-serif;
+}
+
+/* Header Part Start */
+.header_part {
+  background: #ebe7df;
+}
+.header_overlay {
+  background: #242424;
+}
+.login_register {
+  border-left: 2px solid #383838;
+  border-right: 2px solid #383838;
+  margin: 0 0 0 10px;
+  padding: 15px 20px; 
+}
+.login_register a {
+  font-size: 12px;
+  color: #7e7e7e;
+  text-decoration: none;
+}
+.login_register:hover a {
+  color: #57c59f;
+  transition: 0.3s;
+}
+
+/* Menu Part Start */
+.menu_part {
+  background: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #242424;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-left: 1px solid #383838;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #57c59f;
+  transition: 0.3s;
+}
+.br {
+  border-right: 1px solid #383838;
+}
+.wishlish_icon .menu_icon {
+  border-left: 1px solid #383838;
+  padding: 10px 10px;
+}
+.wishlish_icon .menu_icon a {
+  font-size: 18px;
+  color: #6d6d6d;
+  padding: 0px 10px;
+}
+.wishlish_icon .menu_icon .item_cunter {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  background: #adadad;
+}
+.wishlish_icon .menu_icon .item_cunter:hover {
+  background: #57c59f;
+  transition: 0.3s;
+}
+.wishlish_icon .menu_icon .item_cunter p {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Header Part End */
+
+
+/* Hero Part Start */
+.hero_part  {
+  height: 750px;
+  width: 100%;
+}
+.hero_part .hero_overlay {
+  background: url(../img/home_bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 90px;
+}
+.hero_con .hero_doller {
+  height: 70px;
+  width: 70px;
+  background: #57c5a0;
+}
+.hero_con .hero_doller h5 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+.hero_con h1 {
+  font-size: 40px;
+  /* color: #242424; */
+  color: #fff;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.hero_con p {
+  font-size: 20px;
+  /* color: #242424; */
+  color: #ff0000;
+  font-weight: 300;
+}
+.hero_con .hero_icon .hero_icon_inner {
+  height: 45px;
+  width: 45px;
+  background: #fafaf9;
+  margin: 0 5px;
+}
+.hero_con .hero_icon .hero_icon_inner a {
+  font-size: 20px;
+  color: #6e6e6e;
+}
+.hero_con .hero_icon .hero_icon_inner:hover a {
+  color: #57c5a0;
+  transition: 0.3s;
+}
+
+/* Hero Nav Part */
+.hero_part .hero_nav {
+  padding: 25px 0 15px;
+  background: #2e2e2e;
+}
+.hero_nav .nav .nav-item {
+  border-top: 7px solid #000;
+  border-right: 2px solid #2e2e2e;
+}
+.hero_nav .nav .nav-item  {
+  padding: 0 30px;
+}
+.hero_nav .nav .nav-item .nav-link {
+  font-size: 18px;
+  color: #fff;
+}
+.hero_nav .nav .nav-item p {
+  font-size: 12px;
+  color: #adadad;
+}
+.hero_nav .nav .nav-item .nav-link.active {
+  border-top: 5px solid #57c5a0;
+  margin-top: -6px;
+}
+.hero_nav .nav .nav-item .nav-link:hover {
+  border-top: 5px solid #57c5a0;
+  margin-top: -6px;
+  transition: 0.3s;
+}
+/* Hero Part End */
+
+
+/* Specials Part Start */
+.special_part {
+  background: #232323;
+  padding: 35px 0;
+}
+.special_con img {
+  height: 185px;
+  width: 305px;
+}
+.special_con {
+  position: relative;
+}
+.special_con:hover .special_overlay {
+  opacity: 1;
+}
+.special_overlay {
+  background: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s;
+}
+.special_overlay h4{
+  height: 60px;
+  width: 185px;
+  background: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* Specials Part End */
+
+
+/* New Arrivals Part Start */
+.arrival_part {
+  background: #ebe7df;
+  padding: 35px 0;
+}
+.arrival_part .arrival_con h4 {
+  font-size: 25px;
+  color: #242424;
+  font-weight: 300;
+}
+.arrival_button {
+  text-align: right;
+}
+.arrival_btn {
+  height: 30px;
+  width: 105px;
+  border: 1px solid #bbb5a7;
+}
+.arrival_btn a {
+  font-size: 14px;
+  color: #bcb5a7;
+  font-weight: 700;
+  text-decoration: none;
+}
+.arrival_btn:hover a {
+  color: #57c5a0;
+  transition: 0.3s;
+}
+.arrival_part .arrival_con_main .arrival_img img {
+  height: 275px;
+  width: 300px;
+}
+.arrival_part .arrival_con_main .arrival_img {
+  position: relative;
+}
+.arrival_part .arrival_con_main .arrival_img:hover .arrival_overlay {
+  opacity: 1;
+}
+.arrival_overlay {
+  background: rgba(0,0,0,1);
+  /* height: 100%;
+  width: 100%; */
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 16px;
+  opacity: 0;
+  transition: .3s;
+}
+.arrival_overlay p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+/* New Arrivals Part End */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
+
+
+/* Best Sellers Part Start */
+.seller_part {
+  background: #ebe7df;
+  padding: 20px 0 35px;
+}
+.seller_img img {
+  height: 275px;
+  width: 300px;
+}
+.seller_img {
+  position: relative;
+}
+.seller_img:hover .seller_overlay {
+  opacity: 1;
+}
+.seller_overlay {
+  background: #f27e4a;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  opacity: 0;
+  transition: .3s;
+}
+.seller_img .seller_overlay .seller_stock p {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 4px 0 0 5px;
+}
+.seller_img .seller_icon {
+  margin-top: -40px;
+  margin-left: 105px;
+}
+.seller_img .seller_icon .seller_icon_inner a {
+  margin: 0 15px;
+  font-size: 20px;
+  color: #6d6d6d;
+}
+.seller_img .seller_icon .seller_icon_inner:hover a {
+  color: #57c5a0;
+  transition: 0.3s;
+}
+/* Best Sellers Part End */
+
+
+/* Addon Part Start */
+.addon_part {
+  background: #ebe7df;
+  padding: 30px 0;
+  border-top: 1px solid #bbb5a7;
+}
+.addon_con {
+  background: #dfdbd4;
+  width: 255px;
+  height: 220px;
+}
+.addon_con_main:hover,
+.addon_con:hover {
+  box-shadow: 4px 3px 1px #afaca6;
+  transition: 0.3s;
+}
+.addon_head {
+  padding: 20px 20px 10px;
+}
+.addon_head h5 {
+  font-size: 14px;
+  color: #242424;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 0 0 10px;
+}
+.addon_head p {
+  font-size: 12px;
+  color: #242424;
+  padding: 10px 5px 0;
+}
+.addon_head h6 {
+  font-size: 13px;
+  color: #242424;
+  font-style: italic;
+  padding: 5px 5px 0;
+}
+.addon_con_main {
+  background: #dfdbd4;
+  width: 550px;
+  height: 220px;
+}
+.addon_head .addon_blog .addon_date {
+  height: 40px;
+  width: 40px;
+  background: #57c59f;
+  margin: 10px 0 0;
+}
+.addon_head .addon_blog .addon_date h6 {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.addon_head .addon_blog .addon_news h6 {
+  font-size: 14px;
+  color: #242424;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 0 5px;
+}
+.addon_head .addon_blog .addon_news p {
+  font-size: 12px;
+  color: #242424;
+  font-style: normal;
+  margin: 0 0 0 5px;
+}
+.blog {
+  display: none;
+}
+/* Addon Part End */
+
+
+/* Footer Part Start */
+.footer_widget {
+  background: #242424;
+  padding: 40px 0 30px;
+  border-bottom: 1px solid #1c1c1c;
+}
+.footer_widget .widget_head h4 {
+  font-size: 16px;
+  color: #7d7d7d;
+  padding: 0 15px;
+}
+.widget_head .widget_text p {
+  font-size: 13px;
+  color: #a4a4a4;
+  font-style: italic;
+  padding: 15px;
+}
+.widget_head .widget_text .email {
+  color: #57c5a0;
+}
+.widget_head .widget_text .day{
+  color: #c4c5bf;
+}
+.widget_img img {
+  padding-left: 16px;
+  height: 150px;
+  width: 300px;
+}
+
+/* Footer Sigup Area */
+.footer_sigup {
+  background: #242424;
+  padding: 40px 0;
+}
+.footer_sigup .form .search {
+  height: 45px;
+  width: 260px;
+  border: none;
+  background: #2d2d2d;
+  padding: 12px 16px;
+  font-size: 12px;
+  color: #7d7d7d;
+  font-style: italic;
+}
+.footer_sigup .form .form_icon .icon {
+  height: 45px;
+  width: 45px;
+  background: #7d7d7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_sigup .form .form_icon a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4b4b4b;
+}
+.footer_sigup .form .form_icon .icon:hover {
+  background: #57c5a0;
+  transition: 0.3s;
+}
+.footer_icon {
+  text-align: end;
+}
+.footer_sigup .footer_icon .footer_icon_inner {
+  height: 40px;
+  width: 40px;
+  background: #2d2d2d;
+  margin: 0 5px;
+}
+.footer_sigup .footer_icon .footer_icon_inner a {
+  font-size: 20px;
+  color: #7d7d7d;
+}
+.footer_sigup .footer_icon .footer_icon_inner:hover {
+  background: #57c5a0;
+  transition: 0.3s;
+}
+
+/* Footer CopyRight Area */
+.footer_copyright {
+  background: #2e2e2e;
+  padding: 20px 0 15px;
+}
+.copyright_text p {
+  font-size: 12px;
+  color: #ffffff;
+}
+.copyright_text span:hover {
+  color: #57c5a0;
+  transition: 0.3s;
+}
+
+.copyright_text .copyright_menu p {
+  padding: 15px 5px 0;
+}
+.copyright_text .copyright_menu a {
+  color: #FFF;
+  text-decoration: none;
+}
+.copyright_text .copyright_menu:hover a {
+  color: #57c5a0;
+  transition: 0.3s;
+}
+/* .copyright_text .copyright_menu:hover p {
+  color: #57c5a0;
+} */
+
+.m_left {
+  margin-left: 80px;
+}
+/* Footer Part End */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
